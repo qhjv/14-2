@@ -131,7 +131,7 @@ clickno.addEventListener('click',function(){
 });
 /*click trang2 */
 click.addEventListener('click',function(){
-        mymusic.pause();
+        /*mymusic.pause();*/
         /*myaudio.play();*/
         setTimeout(function(){
             khung1.classList.add("khunganhhienlen")
@@ -171,8 +171,8 @@ click.addEventListener('click',function(){
                },12000)
             }
             setTimeout(function(){
-                mymusic.play();
-                myaudio.pause();
+                /*mymusic.play();
+                myaudio.pause();*/
                 lanchuot.classList.add('cuonxuong');
             },13000)
         
