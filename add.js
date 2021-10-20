@@ -132,49 +132,49 @@ clickno.addEventListener('click',function(){
 /*click trang2 */
 click.addEventListener('click',function(){
         mymusic.pause();
-        myaudio.play();
+        /*myaudio.play();*/
         setTimeout(function(){
             khung1.classList.add("khunganhhienlen")
-        },26000)
+        },2000)
         
         setTimeout(function(){
             khung2.classList.add("khunganhhienlen")
-        },53000)
+        },3000)
         setTimeout(function(){
             khung3.classList.add("khunganhhienlen")
-        },80000)
+        },4000)
         setTimeout(function(){
             khung4.classList.add("khunganhhienlen")
-        },115000)
+        },5000)
         setTimeout(function(){
             khung5.classList.add("khunganhhienlen")
-        },136000)
+        },6000)
         setTimeout(function(){
             khung6.classList.add("khunganhhienlen")
-        },151000)
+        },7000)
         setTimeout(function(){
             khung7.classList.add("khunganhhienlen")
-        },168000)
+        },8000)
         setTimeout(function(){
             khung8.classList.add("khunganhhienlen")
-        },188000)
+        },9000)
         setTimeout(function(){
             khung9.classList.add("khunganhhienlen")
-        },188500)
+        },1000)
         setTimeout(function(){
             khung10.classList.add("khunganhhienlen")
-        },222000)
+        },11000)
         
             for (let q = 0; q < khungimg.length; q++) {
                 setTimeout(function(){
                     khungimg[q].classList.add("anhhienlen")
-               },226000)
+               },12000)
             }
             setTimeout(function(){
                 mymusic.play();
                 myaudio.pause();
                 lanchuot.classList.add('cuonxuong');
-            },237000)
+            },13000)
         
         
 })
